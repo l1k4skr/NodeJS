@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "lodash": "^4.17.21",
+    "picocolors": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
