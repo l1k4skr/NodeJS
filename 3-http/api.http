@@ -1,0 +1,18 @@
+### Recuperar un pokemom Ejemplo:charizard
+GET http://localhost:3000/pokemon/charizard
+
+###
+GET http://localhost:3000/
+###
+GET http://localhost:3000/pokemon
+### Crear un pokemon Ejemplo:ditto
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+    "name": "ditto",
+    "type": "normal",
+    "moves": [
+        "transform"
+    ]
+}
